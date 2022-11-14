@@ -1,0 +1,641 @@
+,id,content
+0,1,diem chuan nganh cntt la bao nhieu?
+1,2,diem chuan nganh attt la bao nhieu
+2,3,diem chuan cua nganh khmt la bao nhieu
+3,4,diem chuan cua nganh ktpm la bao nhieu
+4,5,diem chuan cua nganh mang may tinh va truyen thong du lieu la bao nhieu
+5,6,diem chuan cua nganh ttdpt la bao nhieu
+6,7,diem chuan cua nganh httt la bao nhieu
+7,8,diem chuan cua nganh cntt clc la bao nhieu
+8,9,nganh an toan thong tin diem chuan la bao nhieu?
+9,10,nganh khoa hoc may tinh diem chuan la bao nhieu?
+10,11,nganh mang may tinh va truyen thong du lieu diem chuan la bao nhieu?
+11,12,nganh cong nghe thong tin diem chuan la bao nhieu?
+12,13,nganh he thong thong tin diem chuan la bao nhieu?
+13,14,nganh ky thuat phan mem diem chuan la bao nhieu?
+14,15,nganh ky thuat may tinh diem chuan la bao nhieu?
+15,16,diem chuan nam ngoai nganh khmt va cntt la bao nhieu a
+16,17,diem chuan nganh khmt va attt la bao nhieu?
+17,18,diem chuan nganh khmt va httt la bao nhieu?
+18,19,diem chuan nganh khmt va ktpm la bao nhieu?
+19,20,diem chuan nganh khmt va ktmt la bao nhieu?
+20,21,diem chuan nganh cntt va attt la bao nhieu?
+21,22,diem chuan nganh cntt va httt la bao nhieu?
+22,23,diem chuan nganh cntt va ktpm la bao nhieu?
+23,24,diem chuan nganh cntt va ktmt la bao nhieu?
+24,25,diem chuan nganh antt va httt la bao nhieu?
+25,26,diem chuan nganh antt va ktpm la bao nhieu?
+26,27,diem chuan nganh antt va ktmt la bao nhieu?
+27,28,diem chuan nganh httt va ktpm la bao nhieu?
+28,29,diem chuan nganh httn va ktmt la bao nhieu?
+29,30,diem chuan nganh ktpm va ktmt la bao nhieu?
+30,31,nganh truyen thong da phuong tien diem chuan la bao nhieu?
+31,32,diem chuan nganh khmt va cntt la bao nhieu?
+32,33,diem chuan cac nganh nam ngoai
+33,34,diem chuan co cao khong?
+34,35,diem san
+35,36,diem chuan nganh cntt co cao khong?
+36,37,diem chuan nganh nao cao nhat
+37,38,diem chuan nganh nao thap nhat
+38,39,diem chuan giao dong the nao
+39,40,diem chuan nganh khmt co cao khong
+40,41,diem chuan nganh attt co cao khong
+41,42,diem chuan nganh ttdpt co cao khong
+42,43,diem chuan nganh httt co cao khong
+43,44,diem chuan nganh ktpm co cao khong
+44,45,diem chuan nganh ktmt co cao khong
+45,46,diem chuan nganh khmt va ttdpt la bn?
+46,47,diem chuan nganh attt va ttdpt la bn?
+47,48,diem chuan nganh cntt va ttdpt la bn?
+48,49,diem chuan nganh httt va ttdpt la bn?
+49,50,diem chuan nganh ktpm va ttdpt la bn?
+50,51,diem chuan nganh ktmt va ttdpt la bn?
+51,52,da cho em hoi phuong thuc xet tuyen thac si nganh cntt duoc khong a?
+52,53,da cho em hoi phuong thuc xet tuyen thac si nganh khmt duoc khong a?
+53,54,da cho em hoi phuong thuc xet tuyen thac si nganh attt duoc khong a?
+54,55,da cho em hoi phuong thuc xet tuyen thac si nganh ttdpt duoc khong a?
+55,56,da cho em hoi phuong thuc xet tuyen thac si nganh httt duoc khong a?
+56,57,da cho em hoi phuong thuc xet tuyen thac si nganh ktpm duoc khong a?
+57,58,da cho em hoi phuong thuc xet tuyen thac si nganh ktmt duoc khong a?
+58,59,da cho em hoi phuong thuc xet tuyen thac si nganh cntt clc duoc khong a?
+59,60,co bao nhieu phuong thuc xet tuyen
+60,61,phuong thuc xet tuyen nganh cntt
+61,62,phuong thuc xet tuyen nganh khmt
+62,63,phuong thuc xet tuyen nganh attt
+63,64,phuong thuc xet tuyen nganh ttdpt
+64,65,phuong thuc xet tuyen nganh httt
+65,66,phuong thuc xet tuyen nganh ktpm
+66,67,phuong thuc xet tuyen nganh ktmt
+67,68,phuong thuc xet tuyen nganh cntt clc
+68,69,co xet tuyen hoc ba hay khong
+69,70,dai hoc can tho co nhung phuong thuc xet tuyen gi?
+70,71,hoc nganh cong nghe thong tin thi co can gioi tieng anh hay khong?
+71,72,can hoc gioi tieng anh hay khong
+72,73,tieng anh co quan trong khi hoc cntt hay khong?
+73,74,ngoai tieng anh ra thi can hoc them ngoai ngu gi?
+74,75,trong truong co day them tieng anh ve nganh cntt hay khong?
+75,76,gioi tieng anh co loi the hay khong
+76,77,ngoai tieng anh ra co can hoc them tieng nhat hay ngoai ngu khac khong
+77,78,co test tieng anh hay khong?
+78,79,tieng anh quan trong the nao?
+79,80,co the ren luyen tieng anh trong qua trinh hoc hay khong?
+80,81,chuong trinh dao tao co qua kho khong
+81,82,chuong trinh dao tao bao nhieu nam
+82,83,chuong trinh dao tao co kho khong
+83,84,chuong trinh dao tao cua cac nganh tren co cung chung luong kien thuc nhu nhau hay khong?
+84,85,mat bao lau de hoan thanh chuong trinh hoc?
+85,86,chuong trinh hoc co kho khong
+86,87,chuong trinh dao tao bao nhieu tin chi
+87,88,chuong trinh dao tao keo dai bao lau
+88,89,chuong trinh dao tao nganh cntt nhu the nao
+89,90,chuong trinh dao tao nganh khmt nhu the nao
+90,91,chuong trinh dao tao nganh attt nhu the nao
+91,92,chuong trinh dao tao nganh ttdpt nhu the nao
+92,93,chuong trinh dao tao nganh httt nhu the nao
+93,94,chuong trinh dao tao nganh ktpm nhu the nao
+94,95,chuong trinh dao tao nganh ktmt nhu the nao
+95,96,chuong trinh co thoi gian bao lau
+96,97,bao lau de hoan thanh chuong trinh hoc
+97,98,chuong trinh hoc co nang khong?
+98,99,chuong trinh hoc the nao?
+99,100,chuong trinh hoc co dai khong?
+100,101,neu e khong biet gi ve may tinh co thi duoc khong?
+101,102,em khong gioi tieng anh va su dung may tinh cung khong tot lam thi co hop khong a?
+102,103,co yeu cau kien thuc nen tang ve may tinh truoc khong.
+103,104,co can phai gioi tin hoc moi hoc duoc cntt
+104,105,co yeu cau kien thuc chuyen sau ve may tinh khong.
+105,106,em hoc do tin hoc thi co hoc duoc khong
+106,107,cap 3 em khong duoc hoc nhieu ve may tinh thi co theo duoc nghe cntt khong a
+107,108,gioi may tinh thi co phu hop voi nganh cntt khong
+108,109,kien thuc ve may tinh cua em gan nhu khong co thi co hoc duoc khong
+109,110,truong co dao tao lai nhung thu co ban ve tin hoc khong a
+110,111,co nhat thiet phai hoc tot tin hoc moi theo duoc nganh?
+111,112,kien thuc nen tang can thiet
+112,113,co can nen tang kien thuc ve may tinh khong?
+113,114,co can nen tang kien thuc ve tin hoc khong?
+114,115,kien thuc ve tin hoc co can thiet khong
+115,116,co yeu cau ve diem so ve tin hoc hay khong
+116,117,tin hoc va may tinh can thiet the nao
+117,118,co can tu ren luyen kien thuc ve tin hoc khong
+118,119,co can nang khieu ve may tinh khong?
+119,120,nang khieu ve tin hoc
+120,121,nang khieu ve may tinh
+121,122,khi hoc cntt thi can phai gioi may tinh khong
+122,123,khi hoc attt thi can phai gioi may tinh khong
+123,124,khi hoc ktpm thi can phai gioi may tinh khong
+124,125,khi hoc ktmt thi can phai gioi may tinh khong
+125,126,khi hoc httt thi can phai gioi may tinh khong
+126,127,khi hoc ttdpt thi can phai gioi may tinh khong
+127,128,tin hoc quan trong the nao
+128,129,co can phai gioi ve phan cung may tinh khong
+129,130,tin hoc khong gioi thi phai lam sao?
+130,131,nganh nay con gai hoc on khong a?
+131,132,lieu cac em hoc sinh nu co kho khan gi khi theo hoc cac nganh ky thuat thuoc khoa cntt&tt khong ?
+132,133,tro ngai cua cac ban nu khi hoc nganh cntt la gi?
+133,134,so voi cac ban nam thi cac ban nu co thua thiet gi khong?
+134,135,loi the va tro ngai cua con gai khi hoc cong nghe thong tin
+135,136,cac ban nu co can nang khieu khi hoc cntt khong
+136,137,so voi cac ban nam thi cac ban nu co loi the gi?
+137,138,kho khan khi con gai theo hoc nganh cntt
+138,139,cnnt co phu hop voi con gai khong
+139,140,con gai khi hoc khmt co gap tro ngai gi khong
+140,141,doi voi nganh kho nhu attt thi con gai co gap kho khan gi khong
+141,142,nganh httt co phu hop voi cac ban nu khong
+142,143,con gai theo cntt co duoc khong
+143,144,con gai hoc cac nganh ve ky thuat thi co gap tro ngai gi
+144,145,con gai co phai sua may moc trong qua trinh hoc khong
+145,146,nhung kho khan con gai gap phai khi hoc cntt
+146,147,con gai co phai co gang hon con trai khi hoc cntt khong
+147,148,lieu con gai co thanh cong voi cntt duoc khong
+148,149,lieu con gai co thanh cong voi khmt duoc khong
+149,150,lieu con gai co thanh cong voi attt duoc khong
+150,151,lieu con gai co thanh cong voi ttdpt duoc khong
+151,152,lieu con gai co thanh cong voi ktmt duoc khong
+152,153,lieu con gai co thanh cong voi ktpm duoc khong
+153,154,lieu con gai co thanh cong voi httt duoc khong
+154,155,lieu con gai co thanh cong voi mmt&ttdl duoc khong
+155,156,trang thiet bi khi hoc cntt
+156,157,co nhat thiet phai mua may tinh nam nhat de hoc cntt
+157,158,mua may tinh vao nam hoc thu may de phu hop
+158,159,can mua may tinh o muc gia bao nhieu
+159,160,can su dung may tinh co cau hinh the nao thi phu hop
+160,161,khong su dung may tinh co hoc duoc cntt hay khong
+161,162,ngoai may tinh ra thi co can them thiet bi gi khong?
+162,163,nen mua may tinh cua hang nao thi phu hop hoc cntt
+163,164,may tinh co cau hinh the nao thi hoc duoc nganh khmt
+164,165,co can phai co may tinh moi co the hoc duoc nganh cntt?
+165,166,co can phai co may tinh moi co the hoc duoc nganh attt?
+166,167,co can phai co may tinh moi co the hoc duoc nganh httt?
+167,168,co can phai co may tinh moi co the hoc duoc nganh ttdpt?
+168,169,co can phai co may tinh moi co the hoc duoc nganh ktpm?
+169,170,co can phai co may tinh moi co the hoc duoc nganh ktmt?
+170,171,khoa hoc may tinh la gi?
+171,172,khoa hoc may tinh sau nay lam duoc nhung gi
+172,173,thong tin ve nganh khmt
+173,174,nganh khoa hoc may tinh tai dhct
+174,175,nganh khoa hoc may tinh la nganh gi?
+175,176,cong nghe thong tin la gi?
+176,177,cong nghe thong tin sau nay lam duoc nhung gi
+177,178,thong tin ve nganh cntt
+178,179,nganh cong nghe thong tinh tai dhct
+179,180,nganh cong nghe thong tin la nganh gi?
+180,181,an toan thong tin la gi?
+181,182,an toan thong tin sau nay lam duoc nhung gi
+182,183,thong tin ve nganh attt
+183,184,nganh an toan thong tin tai dhct
+184,185,nganh an toan thong tin la nganh gi?
+185,186,truyen thong da phuong tien la gi?
+186,187,truyen thong da phuong tien sau nay lam duoc nhung gi
+187,188,thong tin ve nganh ttdpt
+188,189,nganh truyen thong da phuong tien tai dhct
+189,190,nganh truyen thong da phuong tien la nganh gi?
+190,191,mang may tinh va truyen thong du lieu la gi?
+191,192,mang may tinh va truyen thong du lieu sau nay lam duoc nhung gi
+192,193,thong tin ve nganh mmt&ttdl
+193,194,nganh mang may tinh va truyen thong du lieu tai dhct
+194,195,nganh mang may tinh va truyen thong du lieu la nganh gi?
+195,196,he thong thong tin la gi?
+196,197,he thong thong tin sau nay lam duoc nhung gi
+197,198,thong tin ve nganh httt
+198,199,nganh he thong thong tin tai dhct
+199,200,nganh he thong thong tin la nganh gi?
+200,201,ky thuat may tinh la gi?
+201,202,ky thuat may tinh sau nay lam duoc nhung gi
+202,203,thong tin ve nganh ktmt
+203,204,nganh ky thuat may tinh tai dhct
+204,205,nganh ky thuat may tinh la nganh gi?
+205,206,ky thuat phan mem la gi?
+206,207,ky thuat phan mem sau nay lam duoc nhung gi
+207,208,thong tin ve nganh ktpm
+208,209,nganh ky thuat phan mem tai dhct
+209,210,nganh ky thuat phan mem la nganh gi?
+210,211,cong nghe thong tin chat luong cao la gi?
+211,212,tai sao lai goi la cntt clc
+212,213,thong tin ve nganh cntt clc
+213,214,nganh cntt clc khac biet gi so voi cntt
+214,215,cntt clc so voi cntt
+215,216,moi truong than thien khong
+216,217,co phu hop o moi truong nong thon khong
+217,218,moi truong va thiet bi co dap ung du nhu cau hoc tap hay khong?
+218,219,moi truong hoc tap tai dhct
+219,220,moi truong ren luyen tai dhct
+220,221,moi truong tai khoa cntt ntn
+221,222,moi truong hoc tap co kho khan khong
+222,223,moi truong co than thien voi cac ban sinh vien tinh le khong
+223,224,sinh vien duoc hoc tap trong moi truong ntn
+224,225,moi truong tai khoa cntt co dap ung duoc nhu cau tim toi hoc hoi cua sinh vien khong
+225,226,chuan dau ra co duoc dam bao khong
+226,227,chuan dau ra ntn
+227,228,chuan dau ra co duoc dam bao nao khong
+228,229,chat luong dau ra cua cntt nay tai truong?
+229,230,chat luong dau ra cua attt nay tai truong?
+230,231,chat luong dau ra cua ttdpt nay tai truong?
+231,232,chat luong dau ra cua mmt&ttdl nay tai truong?
+232,233,chat luong dau ra cua khmt nay tai truong?
+233,234,chat luong dau ra cua httt nay tai truong?
+234,235,chat luong dau ra cua ktpm nay tai truong?
+235,236,chat luong dau ra cua ktmt nay tai truong?
+236,237,chat luong dau ra cua cntt clc nay tai truong?
+237,238,chat luong dau ra cua sinh vien
+238,239,dau ra co dam bao hay khong
+239,240,khoa co chuan dau ra ntn
+240,241,ti le tot nghiep la bao nhieu
+241,242,ti le tot nghiep ra truong la bao nhieu
+242,243,ti le ra truong la bao nhieu?
+243,244,ti le co viec lam dung nganh nghe sau khi ra truong la bn
+244,245,ti le tot nghiep loai gioi la bao nhieu
+245,246,ti le tot nghiep ra truong co cao khong
+246,247,nganh nao co ti le ra truong co viec lam nhat?
+247,248,ti le tot nghiep dung thoi han la bao nhieu
+248,249,giua nganh cntt va khoa hoc may tinh thi nganh nao co ti le viec lam cao hon a?
+249,250,ti le sinh vien ra truong co dam bao khong
+250,251,co yeu cau ky nang giao tiep khong
+251,252,can trau doi nhung ky nang gi khi hoc cntt
+252,253,can ren luyen nhung ky nang nao
+253,254,ky nang mem co can thiet khong
+254,255,ky nang can thiet de hoc cntt
+255,256,khi hoc nganh may tinh em can nhung ki nang gi
+256,257,nganh khoa hoc may tinh doi hoi to chat gi
+257,258,nganh nay co hoc cao dang khong
+258,259,co nhat thiet phai hoc dh neu hoc cntt hay khong
+259,260,hoc cao dang co bang dai hoc hay khong
+260,261,hoc phi tung nam
+261,262,hoc phi co dat khong
+262,263,co duoc giam hoc phi khong
+263,264,dieu kien de giam hoc phi
+264,265,hoc phi co tang khong
+265,266,hoc phi mot nam khoang bn
+266,267,hoc phi so voi cac truong khac
+267,268,hoc phi ntn
+268,269,co giam hoc phi nhung truong hop nao
+269,270,co truong hop nao duoc mien hoc phi khong
+270,271,hoc phi co phu hop voi sinh vien tinh khong
+271,272,hoc phi dhct so voi cac truong khac ntn
+272,273,hoc phi giao dong khoang bao nhieu mot hoc ki
+273,274,hoc phi co lon hon hoc cao dang khong
+274,275,hoc phi tinh the nao?
+275,276,hoc bong ntn
+276,277,dieu kien nhan hoc bong
+277,278,hoc bong co nhung loai nao
+278,279,nghe noi dhct co hoc bong khuyen khich cho cac sinh vien co diem thi dai hoc cao?
+279,280,neu hoc xong muon xin hoc bong lam ntn
+280,281,neu hoc xong muon xin hoc bong du hoc lam ntn
+281,282,ngoai dhct ra sinh vien co the xin hoc bong o dau?
+282,283,hoc bong co lon khong
+283,284,hoc bong khuyen khich duoc xet the nao
+284,285,so luong hoc bong khuyen khich tung hoc ky
+285,286,hoc bong duoc bao nhieu tien
+286,287,co xin duoc hoc bong nuoc ngoai khong
+287,288,cac doi tac dhct co tang hoc bong cho sinh vien khong
+288,289,thong tin hoc bong duoc dang tai o dau
+289,290,co the xin hoc bong ngoai don vi khong?
+290,291,dhct co to chuc ngay hoi viec lam khong
+291,292,hoc xong truong co gioi thieu viec lam khong
+292,293,nganh nay co hoi viec lam sau khi ra truong on khong a
+293,294,nhung vi tri viec lam khi ra truong
+294,295,co hoi viec lam hay khong
+295,296,xin viec lam duoc vao nhung noi nao
+296,297,co hoi viec lam sau khi ra truong nhu the nao?
+297,298,ra truong co duoc dam bao viec lam khong?
+298,299,co kho tim viec lam hay khong?
+299,300,nganh an toan thong tin co the lam duoc nhung cong viec nao?
+300,301,ra truong co lam viec trong nha nuoc duoc k?
+301,302,hoc khoa hoc may tinh co hoi viec lam co nhieu khong
+302,303,nganh an toan thong tin co hoi viec lam co nhieu khong
+303,304,hoc cong nghe thong tin co hoi viec lam co nhieu khong
+304,305,nganh he thong thong tin co hoi viec lam co nhieu khong
+305,306,hoc ky thuat phan mem co hoi viec lam co nhieu khong
+306,307,nganh ky thuat may tinh co hoi viec lam co nhieu khong
+307,308,hoc ttdpt co hoi viec lam co nhieu khong
+308,309,nganh mmt&ttdl co hoi viec lam co nhieu khong
+309,310,sau khi tot nghiep co giu lai truong lam viec khong
+310,311,hoc khoa hoc may tinh khi ra truong se lam duoc nhung gi?
+311,312,nganh an toan thong tin co the lam duoc nhung cong viec nao?
+312,313,hoc cong nghe thong tin khi ra truong se lam duoc nhung gi?
+313,314,nganh ky thuat may tinh co the lam duoc nhung cong viec nao?
+314,315,hoc he thong thong tin ra truong se lam duoc nhung gi?
+315,316,nganh ky thuat phan mem co the lam duoc nhung cong viec nao?
+316,317,hoc truyen thong da phuong tien khi ra truong se lam duoc nhung gi?
+317,318,nganh mmt&ttdl co the lam duoc nhung cong viec nao?
+318,319,nganh nay co luong huu khong
+319,320,neu co thi khoang bao nhieu va dieu kien de duoc tra luong khi ve huu
+320,321,ra truong lam viec luong bao nhieu
+321,322,muc luong ra truong sao voi cac nganh khac?
+322,323,tien luong nganh nay co ok khong
+323,324,ra truong lam viec luong bao nhieu?
+324,325,ra truong thi luong trung binh la bao nhieu a
+325,326,nganh nao ra truong co luong cao nhat?
+326,327,ra truong co xin duoc viec ko va muc luong dao dong la bao nhieu
+327,328,luong trung binh la bao nhieu?
+328,329,cu nhan cntt luong bn
+329,330,cu nhan khmt luong bn
+330,331,cu nhan attt luong bn
+331,332,cu nhan httt luong bn
+332,333,cu nhan ktmt luong bn
+333,334,cu nhan ktmt luong bn
+334,335,cu nhan ttdpt luong bn
+335,336,cu nhan mmt&ttdl luong bn
+336,337,luong cu nhan bao nhieu
+337,338,luong co nhan theo he so khong
+338,339,luong nganh it cao khong
+339,340,tien luong the nao
+340,341,cuong do lam viec khi lam cong viec nay
+341,342,nganh nay co he thong cap bac khong
+342,343,neu co thi dieu kien thang tien la gi
+343,344,ma nganh nay co buoc nghi huu khong hay van co the tiep tuc cong viec du da gia
+344,345,suc canh tranh cua nganh nay
+345,346,dong gop cho xa hoi
+346,347,co hoi thang tien trong nganh
+347,348,vi tri lam viec sau khi ra truong
+348,349,nganh nay thang tien co nhanh khong
+349,350,lam nganh nay co cuc khong?
+350,351,khoi luong cong viec co nang khong
+351,352,canh tranh trong moi truong lam viec the nao
+352,353,thang tien trong nganh co nhanh khong
+353,354,cap bac trong nganh nhu the nao
+354,355,nganh nay co nghi huu khong
+355,356,tuoi nghe cua nganh
+356,357,tuoi nghe co dai khong
+357,358,hon 30 tuoi thi co theo nghe duoc khong?
+358,359,cap bac cua nganh?
+359,360,nganh co phan cap do khong
+360,361,nhung kho khan khi hoc cntt
+361,362,nhung kho khan khi hoc attt
+362,363,nhung kho khan khi hoc khmt
+363,364,nhung kho khan khi hoc httt
+364,365,nhung kho khan khi hoc mmt&ttdl
+365,366,nhung kho khan khi hoc ttdpt
+366,367,nhung kho khan khi hoc ktpm
+367,368,nhung kho khan khi hoc ktmt
+368,369,nhung kho khan cua sinh vien nganh may tinh khi tim viec
+369,370,"nhung vat va, kho khan cong viec nhu the nao?"
+370,371,nhung kho khan khi tu hoc nganh cntt
+371,372,nhung kho khan trong viec tiep thu kien thuc
+372,373,nhung kho khan trong moi truong thay doi nhanh nhu cntt
+373,374,kho khan khi hoc tai mot truong dh lon
+374,375,nhung kho khan thuong gap phai
+375,376,moi truong hoc tap co kho khan qua khong
+376,377,nhung thuan loi khi hoc cntt
+377,378,nhung thuan loi khi hoc attt
+378,379,nhung thuan loi khi hoc khmt
+379,380,nhung thuan loi khi hoc httt
+380,381,nhung thuan loi khi hoc mmt&ttdl
+381,382,nhung thuan loi khi hoc ttdpt
+382,383,nhung thuan loi khi hoc ktpm
+383,384,nhung thuan loi khi hoc ktmt
+384,385,nhung thuan loi cua sinh vien nganh may tinh khi tim viec
+385,386,nhung thuan loi cong viec nhu the nao?
+386,387,nhung thuan loi khi tu hoc nganh cntt
+387,388,nhung thuan loi trong viec tiep thu kien thuc
+388,389,nhung thuan loi trong moi truong thay doi nhanh nhu cntt
+389,390,thuan loi khi hoc tai mot truong dh lon
+390,391,nhung thuan loi
+391,392,moi truong co thuan loi khong
+392,393,giang vien co kho khong
+393,394,kien thuc co kho tiep thu khong
+394,395,kien thuc kho khong?
+395,396,nghe bao hoc cntt kho lam
+396,397,nghe bao hoc khmt kho lam
+397,398,nghe bao hoc attt kho lam
+398,399,nghe bao hoc httt kho lam
+399,400,nghe bao hoc ktpm kho lam
+400,401,nghe bao hoc ktmt kho lam
+401,402,nghe bao hoc ttdpt kho lam
+402,403,nghe bao hoc mmt&ttdl kho lam
+403,404,kien thuc co kho doi voi sinh vien khong
+404,405,nganh nay co kho hoc khong
+405,406,so voi cac truong khac kien thuc dhct day co kho khong?
+406,407,kien thuc chuyen nganh cntt co kho khong
+407,408,kien thuc chuyen nganh khmt co kho khong
+408,409,kien thuc chuyen nganh attt co kho khong
+409,410,kien thuc chuyen nganh httt co kho khong
+410,411,kien thuc chuyen nganh ktmt co kho khong
+411,412,kien thuc chuyen nganh ktpm co kho khong
+412,413,kien thuc chuyen nganh ttdpt co kho khong
+413,414,kien thuc chuyen nganh mmt&ttdl co kho khong
+414,415,ngoai chuyen nganh ra nhung mon khac co kho khong
+415,416,tieng anh cntt co kho khong
+416,417,khong gioi may tinh hoc co kho khong
+417,418,khong gioi tieng anh hoc co kho khong
+418,419,khong gioi ngoai ngu hoc co kho khong
+419,420,em khong biet chut nao ve may tinh va tieng anh thi hoc co kho khong?
+420,421,em khong gioi ve phan cung thi hoc co kho khong?
+421,422,kien thuc duoc day co kho tiep thu khong
+422,423,kien thuc co so nganh co kho ko
+423,424,phan kien thuc nao la kho nhat
+424,425,kien thuc kho nhat khi hoc cntt
+425,426,giang vien co de khong
+426,427,kien thuc co de tiep thu khong
+427,428,kien thuc de khong?
+428,429,hoc cntt co de ko
+429,430,hoc attt co de ko
+430,431,hoc httt co de ko
+431,432,hoc ttdpt co de ko
+432,433,hoc mmt&ttdl co de ko
+433,434,hoc ktpm co de ko
+434,435,hoc ktmt co de ko
+435,436,hoc khmt co de ko
+436,437,kien thuc co de tiep thu doi voi sinh vien khong
+437,438,nganh nay co de hoc khong
+438,439,so voi cac truong khac kien thuc dhct day co de hon khong?
+439,440,kien thuc chuyen nganh cntt co de khong
+440,441,kien thuc chuyen nganh khmt co de khong
+441,442,kien thuc chuyen nganh attt co de khong
+442,443,kien thuc chuyen nganh httt co de khong
+443,444,kien thuc chuyen nganh ktmt co de khong
+444,445,kien thuc chuyen nganh ktpm co de khong
+445,446,kien thuc chuyen nganh ttdpt co de khong
+446,447,kien thuc chuyen nganh mmt&ttdl de khong
+447,448,ngoai chuyen nganh ra nhung mon khac co de khong
+448,448,tieng anh cntt co de khong
+449,450,khong gioi may tinh hoc co de tiep thu khong
+450,451,khong gioi tieng anh hoc co de tiep khu kien thuc duoc khong
+451,452,khong gioi ngoai ngu hoc co de tiep khu kien thuc khong
+452,453,em khong biet chut nao ve may tinh va tieng anh thi hoc co dkhong?
+453,454,em khong gioi ve phan cung thi hoc co kho khong?
+454,455,kien thuc duoc day co kho tiep thu khong
+455,456,kien thuc co so nganh co de ko
+456,457,phan kien thuc nao la de tiep thu va co ban nhat
+457,458,nganh nay se cung cap nhung kien thuc gi sau khi ra truong?
+458,459,chuong trinh dao tao cua cac nganh tren co cung chung luong kien thuc nhu nhau hay khong?
+459,460,kien thuc cua truong co duoc cap nhat theo xu huong cong nghe hien nay hay khong?
+460,461,luong kien thuc cua truong dao dao co dap ung du nhu cau co ban cho quan trinh sau khi ra truong de lam viec hay khong?
+461,462,co duoc luyen lai tu dau de lay can ban khong hay hoc toi toi luon
+462,462,nen chon chuyen nganh nao o thoi diem hien tai?
+463,464,nganh nay co day lap trinh web khong?
+464,465,co the hoc 2 nganh cung 1 luc duoc k
+465,466,yeu thich tri tue nhan tao nen hoc nganh nao
+466,467,tieu chi nhu the nao moi dc coi la dat
+467,468,nganh khoa hoc may tinh co can phai gioi toan khong?
+468,469,cac chuyen nganh cua nganh khmt la gi
+469,470,can hoc chinh thuc nhung mon nao va mon chu yeu
+470,471,can hoc tot nhung mon nao o cap 3
+471,472,nganh nao day lap trinh game khong
+472,473,nhung kien thuc truong day co rong khong
+473,474,khoi luong kien thuc the nao?
+474,475,lieu co duoc day lai nhung cai can ban khong
+475,476,em khong gioi tin hoc 11 thi co hoc duoc nganh nay khong
+476,477,bang cap co thuc su quan trong doi voi nghanh cong nghe thong tin khong?
+477,478,dieu gi la quan trong nhat khi hoc ky thuat phan mem?
+478,479,nhung kien thuc nao se duoc giang day
+479,480,qua trinh dao tao co kho khong
+480,481,nhung mon nao can dau tu de co ket qua hoc tot
+481,482,muon hoc tot khoa hoc may tinh thi can hoc nhung kien thuc nao
+482,483,yeu thich he thong thi hoc nganh nao
+483,484,cac chuyen nganh cua httt la gi?
+484,485,cac chuyen nganh cua nganh cntt la gi
+485,486,cac chuyen nganh cua nganh attt la gi
+486,487,cac chuyen nganh cua nganh ttdpt la gi
+487,488,cac chuyen nganh cua nganh mmt&ttdl la gi
+488,489,cac chuyen nganh cua nganh ktpm la gi
+489,490,cac chuyen nganh cua nganh ktmt la gi
+490,491,nganh nao dao tao tri tue nhan tao
+491,492,nganh dao tao web la gi?
+492,493,nganh khmt cung cap nhung kien thuc gi
+493,494,cac tieu chi de qua mon
+494,495,nganh ttdpt co can gioi do hoa khong
+495,496,nganh attt co hoc bao mat ko
+496,497,khoi luong kien thuc nganh khmt co nang ko
+497,498,yeu thich lam game hoc nganh nao
+498,499,khi giang day giang vien co day lai kien thuc co ban khong
+499,500,co duoc day lai lap trinh co ban khong
+500,501,mot nam co bao nhieu hoc ki
+501,502,mot hoc ki keo dai trong bao lau
+502,503,hoc bao lau thi xong
+503,504,chuong trinh dao tao bao nhieu nam
+504,505,co the hoc som hon thoi gian du kien ra truong khong
+505,506,thoi khoa bieu co day khong
+506,507,thoi gian hoc the nao
+507,508,co duoc nghi he khong
+508,509,hoc ki he co dai khong
+509,510,he co day them khong
+510,511,co the hoc toi da trong bao lau
+511,512,thoi gian dao tao cac nganh co khac nhau khong
+512,513,thoi gian hoc duoc tinh the nao
+513,514,thoi gian hoc la bao lau?
+514,515,nganh ton thoi gian hoc dung khong
+515,516,nganh cntt sau nay co bi lac hau khong
+516,517,nhung rui ro khi hoc cntt
+517,518,"hoc nganh nay co bi tram cam, mau gia khong?"
+518,519,nhung he luy keo theo khi hoc cntt
+519,520,cong nghe cap nhat lien tuc vay co bi lac hau hay khong
+520,521,tuoi nghe nganh nay it dung khong
+521,522,co de bi dau lung khi phai ngoi may tinh qua nhieu khong
+522,523,nghe bao hoc cntt de bi tri
+523,524,co bi benh ve mat hay khong
+524,525,"moi truong phai tiep xuc qua nhieu voi may moc, co bi anh huong suc khoe hay ko"
+525,526,hoc cntt co bi tram cam khong
+526,527,nhung rui ro co the gap
+527,528,rac roi khi hoc cntt la gi
+528,529,ty le thap nghiep cua nganh co cao hay khong
+529,530,co de bi that nghiep khong?
+530,531,"nganh tri tue nhan tao chua qua noi o viet nam, co de bi that nghiep neu theo khmt hay ko?"
+531,532,ti le that nghiep nganh cntt
+532,533,ti le that nghiep nganh khmt
+533,534,ti le that nghiep nganh attt
+534,535,ti le that nghiep nganh httt
+535,536,ti le that nghiep nganh mmt&ttdl
+536,537,ti le that nghiep nganh ttdpt
+537,538,ti le that nghiep nganh ktmt
+538,539,ti le that nghiep nganh ktpm
+539,540,ti le that nghiep cua sinh vien khoa cntt&tt co cao khong?
+540,541,ti le choi
+541,542,ti le choi co cao khong
+542,543,ti le canh tranh nganh cntt
+543,544,ti le canh tranh nganh khmt
+544,545,ti le canh tranh nganh attt
+545,546,ti le canh tranh nganh httt
+546,547,ti le canh tranh nganh ktmt
+547,548,ti le canh tranh nganh ktpm
+548,549,ti le canh tranh nganh mmt&ttdl
+549,550,ti le canh tranh nganh ttdpt
+550,551,ti le canh tranh nganh cntt clc
+551,552,ty le canh tranh vao truong cao hay thap
+552,553,chi tieu cntt nam truoc la bao nhieu
+553,554,chi tieu khmt nam truoc la bao nhieu
+554,555,chi tieu attt nam truoc la bao nhieu
+555,556,chi tieu httt nam truoc la bao nhieu
+556,557,chi tieu ktmt nam truoc la bao nhieu
+557,558,chi tieu ktpm nam truoc la bao nhieu
+558,559,chi tieu mmt&ttdl nam truoc la bao nhieu
+559,560,chi tieu ttdpt nam truoc la bao nhieu
+560,561,chi tieu cntt clc nam truoc la bao nhieu
+561,562,chi tieu qua tung nam co tang hay khong
+562,563,chi tieu cao co dong nghia voi lop se dong hay ko?
+563,564,chi tieu tang thi chat luong giang day co kem di khong
+564,565,chi tieu cang cao thi chat luong sinh vien se the nao?
+565,566,co the thuc tap o dau
+566,567,cac don vi co the thuc tap
+567,568,thoi gian thuc tap la bao lau
+568,569,khi nao thi thuc tap
+569,570,co the thuc tap o dau
+570,571,co the thuc tap o tai khoa hay khong
+571,572,khoang bao lau thi co the di thuc tap
+572,573,thuc tap co lay diem khong
+573,574,can hoc xong nhung hoc phan nao thi moi co the di thuc tap
+574,575,co the thuc tap o dai truyen hinh hay khong
+575,576,ngoai nhung co quan chuyen ve cntt thi co the thuc tap o nhung cho nao khac khong
+576,577,thuc tap co luong khong
+577,578,di thuc tap can chuan bi gi
+578,579,thuc tap la lam nhung gi
+579,580,khoa co gioi thieu cho sinh vien di thuc tap khong
+580,581,"theo anh/chi thi trong cac nganh tren, nganh nao se co tiem nang trong tuong lai?"
+581,582,cac nganh cntt se co tuong lai the nao
+582,583,sau 10 nam nua nganh cntt van con cho dung chu
+583,584,nganh khmt lieu co bi tut hau trong tuong lai hay ko?
+584,585,the manh cua nganh cntt voi cac nganh khac la ntn
+585,586,hoc cntt co phai la don dau tuong lai
+586,587,hoc khmt lieu co the lam duoc tri tue nhan tao cao cap trong tuong lai hay ko
+587,588,nganh httt lieu co phat trien
+588,589,kha nang phat trien cua nganh cntt
+589,590,cach dat muc tieu va dinh huong phat trien cho ban than khi theo hoc nghanh cong nghe thong tin?
+590,591,lieu co the hoc tien si tai dhct
+591,592,nhung nganh nao dao tao tien si
+592,593,nhung nganh nao dao tao thac si
+593,594,lieu co the hoc len cao hoc hay ko
+594,595,quy trinh hoc cao hoc tai dhct
+595,596,dieu kien hoc len thac si va tien si nganh cntt nhu the nao a
+596,597,dieu kien hoc cao hoc
+597,598,co dao tao tien si nganh khmt hay ko?
+598,599,co dao tao tien si nganh cntt hay ko
+599,600,nganh nao dao tao tien si tot nhat o khoa cntt
+600,601,da co nhung ung dung ky thuat nao noi troi
+601,602,co so vat chat o khoa cntt tai dhct the nao
+602,603,si so mot lop the nao
+603,604,co nhieu lop khong
+604,605,muc do hot cua nganh do hien nay?
+605,606,o ktx co can dk gi ko
+606,607,xep hang cua nganh so voi cac nganh khac
+607,608,nganh ung dung duoc nhung linh vuc nao
+608,609,nganh nay co uu diem gi so voi nhung nganh khac (so sanh)
+609,610,khi hoc nganh do co duoc uu tien gi khong
+610,611,muc thu nhap bao nhieu
+611,612,nganh nao phat trien nhanh nhat
+612,613,nganh nay co nhieu ban nu xinh dep khong?
+613,614,ky thuat may tinh va khoa hoc may tinh co gi khac nhau khong?
+614,615,nganh khoa hoc may tinh co giong cac nganh con lai khong?
+615,616,cach dat muc tieu va dinh huong phat trien cho ban than khi theo hoc nghanh cong nghe thong tin?
+616,617,moi truong va thiet bi co dap ung du nhu cau hoc tap hay khong?
+617,618,chi phi sinh hoat khi hoc tren tp co dat ko
+618,619,moi truong co nhieu con gai khong
+619,620,em theo cntt thi nen theo truong fpt hay hutech hay truong nao khac a
+620,621,cntt va khoa hoc may tinh co gi khac nhau khong?
+621,622,cntt va ktpm co gi khac nhau khong?
+622,623,ktpm va khoa hoc may tinh co gi khac nhau khong?
+623,624,co khong gian de start up hay khong
+624,625,sinh vien co duoc tham gia cac du an hay khong
+625,626,co nhung clb hay hoi nhom gi khong
+626,627,nhung hoat dong ngoai khoa
+627,628,sinh vien co the di lam them ben ngoai khong
+628,629,co khong gian de sinh vien tu hoc khong
+629,630,thu vien cua truong the nao
+630,631,sinh vien co duoc trao doi ngoai gio hoc voi giang vien hay khong
+631,632,nganh khmt co giup sinh vien lam game ko?
+632,633,nhung du an lam game co duoc chap nhan nhu mot do an tot nghiep hay ko
+633,634,lam game thi hoc cai gi?
+634,635,ngoai gio hoc sinh vien co duoc xu dung may tinh tai khoa hay ko?
+635,636,co phai dong phi de su dung thiet bi trong khoa cntt hay ko?
+636,637,drl co anh huong den hoc bong hay ko?
+637,638,khoa da co nhung ung dung ky thuat nao noi troi
+638,639,nghe bao khoa co phong sang che?
+639,640,nhung thuan loi khi hoc cntt tai dhct

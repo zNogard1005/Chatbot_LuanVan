@@ -1,0 +1,69 @@
+{
+  "intent": [
+    {
+      "tag": "diemchuan",
+      "patterns": [
+        "điểm chuẩn ngành cntt là bao nhiêu?",
+        "điểm chuẩn ngành attt là bao nhiêu",
+        "điểm chuẩn của ngành khmt là bao nhiêu",
+        "điểm chuẩn của ngành ktpm là bao nhiêu",
+        "điểm chuẩn của ngành mạng máy tính và truyền thông dữ liệu là bao nhiêu",
+        "điểm chuẩn của ngành ttdpt là bao nhiêu",
+        "điểm chuẩn của ngành httt là bao nhiêu",
+        "điểm chuẩn của ngành cntt clc là bao nhiêu",
+        "Ngành An toàn thông tin điểm chuẩn là bao nhiêu",
+        "Ngành Khoa học máy tính điểm chuẩn là bao nhiêu",
+        "Ngành Mạng máy tính và truyền thông dữ liệu điểm chuẩn là bao nhiêu?",
+        "Ngành Công nghệ thông tin điểm chuẩn là bao nhiêu",
+        "Ngành Hệ thống thông tin điểm chuẩn là bao nhiêu",
+        "Ngành Kỹ thuật phần mềm điểm chuẩn là bao nhiêu",
+        "Ngành Kỹ thuật máy tính điểm chuẩn là bao nhiêu",
+        "Điểm chuẩn năm ngoái ngành khmt và cntt là bao nhiêu ạ",
+        "điểm chuẩn ngành khmt và attt là bao nhiêu",
+        "Điểm chuẩn ngành khmt và httt là bao nhiêu",
+        "Điểm chuẩn ngành khmt và ktpm là bao nhiêu",
+        "Điểm chuẩn ngành khmt và ktmt là bao nhiêu",
+        "Điểm chuẩn ngành cntt và attt là bao nhiêu",
+        "Điểm chuẩn ngành cntt và httt là bao nhiêu",
+        "Điểm chuẩn ngành cntt và ktpm là bao nhiêu",
+        "Điểm chuẩn ngành cntt và ktmt là bao nhiêu",
+        "Điểm chuẩn ngành antt và httt là bao nhiêu",
+        "Điểm chuẩn ngành antt và ktpm là bao nhiêu",
+        "Điểm chuẩn ngành antt và ktmt là bao nhiêu",
+        "Điểm chuẩn ngành httt và ktpm là bao nhiêu",
+        "Điểm chuẩn ngành httn và ktmt là bao nhiêu",
+        "Điểm chuẩn ngành ktpm và ktmt là bao nhiêu",
+        "Ngành Truyền thông đa phương tiện điểm chuẩn là bao nhiêu",
+        "điểm chuẩn ngành khmt và cntt là bao nhiêu",
+        "Điểm chuẩn các ngành năm ngoái",
+        "Điểm chuẩn có cao không",
+        "Điểm sàn",
+        "Điểm chuẩn ngành cntt có cao không",
+        "điểm chuẩn ngành nào cao nhất",
+        "điểm chuẩn ngành nào thấp nhất",
+        "điểm chuẩn giao động thế nào",
+        "Điểm chuẩn ngành khmt có cao không",
+        "Điểm chuẩn ngành attt có cao không",
+        "Điểm chuẩn ngành ttdpt có cao không",
+        "Điểm chuẩn ngành httt có cao không",
+        "Điểm chuẩn ngành ktpm có cao không",
+        "Điểm chuẩn ngành ktmt có cao không",
+        "điểm chuẩn ngành khmt và ttdpt là bn",
+        "điểm chuẩn ngành attt và ttdpt là bn",
+        "điểm chuẩn ngành cntt và ttdpt là bn",
+        "điểm chuẩn ngành httt và ttdpt là bn",
+        "điểm chuẩn ngành ktpm và ttdpt là bn",
+        "điểm chuẩn ngành ktmt và ttdpt là bn"
+      ],
+      "responses": [
+
+      ]
+    },
+    {
+      "tag": "phuongthuc",
+      "patterns": [
+
+      ]
+    }
+  ]
+}

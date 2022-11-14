@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--  This file has been downloaded from bootdey.com    @bootdey on twitter -->
+        <!--  All snippets are MIT license http://bootdey.com/license -->
+        <title>B1812282_VONGOCLONG</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+
+            body {
+            background:#ddd;
+            margin-top:10px;
+            }
+
+            .chat-box {
+                height: 100%;
+                width: 100%;
+                background-color: azure;
+                overflow: hidden;
+            }
+
+            .chats {
+                padding: 30px 15px;
+            }
+
+            .chat-avatar {
+                float: right;
+            }
+
+            .chat-avatar .avatar {
+                width: 30px;
+                    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+            }
+
+            .chat-body {
+                display: block;
+                margin: 10px 30px 0 0;
+                overflow: hidden;
+            }
+
+            .chat-body:first-child {
+                margin-top: 0;
+            }
+
+            .chat-content {
+                position: relative;
+                display: block;
+                float: right;
+                padding: 8px 15px;
+                margin: 0 20px 10px 0;
+                clear: both;
+                color: #ddd;
+                background-color: cornflowerblue;
+                border-radius: 4px;
+                    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+                box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+            }
+
+            .chat-content:before {
+                position: absolute;
+                top: 10px;
+                right: -10px;
+                width: 0;
+                height: 0;
+                content: '';
+                border: 5px solid transparent;
+                border-left-color: #62a8ea
+            }
+
+            .chat-content:before {
+                position: absolute;
+                top: 10px;
+                right: -10px;
+                width: 0;
+                height: 0;
+                content: '';
+                border: 5px solid transparent;
+                border-left-color: #62a8ea
+            }
+
+            .chat-content>p:last-child {
+                margin-bottom: 0
+            }
+
+            .chat-content+.chat-content:before {
+                border-color: transparent
+            }
+
+            .chat-time {
+                display: block;
+                margin-top: 8px;
+                color: rgba(255, 255, 255, .6)
+            }
+
+            .chat-left .chat-avatar {
+                float: left
+            }
+
+            .chat-left .chat-body {
+                margin-right: 0;
+                margin-left: 30px
+            }
+
+            .chat-left .chat-content {
+                float: left;
+                margin: 0 0 10px 20px;
+                color: #76838f;
+                background-color: #dfe9ef
+            }
+
+            .chat-left .chat-content:before {
+                right: auto;
+                left: -10px;
+                border-right-color: #dfe9ef;
+                border-left-color: transparent
+            }
+
+            .chat-left .chat-content+.chat-content:before {
+                border-color: transparent
+            }
+
+            .chat-left .chat-time {
+                color: #a3afb7
+            }
+
+            .panel-footer {
+                padding: 0 30px 15px;
+                background-color: transparent;
+                border-top: 1px solid transparent;
+                border-bottom-right-radius: 3px;
+                border-bottom-left-radius: 3px;
+            }
+
+            .avatar img {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                border: 0 none;
+                border-radius: 1000px;
+            }
+
+            .chat-avatar .avatar {
+                width: 30px;
+            }
+
+            .avatar {
+                position: relative;
+                display: inline-block;
+                width: 40px;
+                white-space: nowrap;
+                border-radius: 1000px;
+                vertical-align: bottom;
+
+            }
+
+            .wrapper {
+            padding: 10px;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container bootstrap snippets bootdeys">
+        <div class="col-md-7 col-xs-12 col-md-offset-2">
+        <!-- Panel Chat-->
+            <div class="panel" id="chat">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <i class="icon wb-chat-text" aria-activedescendant="true"></i>
+                        CHATBOT TƯ VẤN TUYỂN SINH - B1812282_VONGOCLONG
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="chats" id = "chatbot">
+                        <div class="chat chat-left">
+                            <div class="chat-avatar">
+                                <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="...">
+                                </a>
+                            </div>
+                        <div class="chat-body">
+                            <div class="chat-content">
+                                <p>Xin chào, Chatbot B1812282_VONGOCLONG xin hỗ trợ ạ</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                <div class="panel-footer">
+                    <!--<form>-->
+                    <div class="form-group" id="userInput">
+                        <input id="textInput" type="text" name="msg" placeholder="Massage" class="form-control"/>
+                    </div>
+                    <div class="wrapper">
+                        <button id="start-record-btn" title="Start Recording" class="btn btn-primary">Bắt Đầu Ghi</button>
+                        <button id="pause-record-btn" title="Pause Recording" class="btn btn-primary">Tạm Dừng Ghi</button>
+                        <p id="recording-íntructions" class="card-text">Vui lòng ấn để <strong> Bắt đầu ghi âm</strong></p>
+                        <button onclick="playAudio()" type="button" class="btn btn-primary">Play Audio</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-primary">Pause Audio</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="./sql" class="btn btn-primary stretched-link">Xem lịch sử</a>
+            </div>
+        </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            var fileAudio;
+            var x;
+            function getBotResponse(){
+                var rawText = $("#textInput").val();
+                var userHtml = '<div class="chat"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="..."></a></div><div class="chat-body"><div class="chat-body"><div class="chat-content"><p>' + rawText+ "</p></div></div></div></div>";
+                $("#textInput").val("");
+                $("#chatbot").append(userHtml)
+                document.getElementById("userInput").scrollIntoView({block:"start", behavior:"smooth"});
+                $.get("/get1",{msg: rawText}).done(function(data){
+                    console.log(data);
+
+                    var dt = data.split(' ');
+                    console.log(dt);
+
+                    var len = dt.length-2;
+                    console.log(len);
+
+                    dt = dt.slice(0, len).join(' ');
+                    console.log(dt);
+
+                    fileAudio = data.split(' ');
+                    fileAudio = fileAudio.slice(fileAudio.lenght-len-1, fileAudio.lenght-1);
+
+                    var botHtml = '<div class="chat chat-left"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."></a></div><div class="chat-body"><div class="chat-content"><p>'+"trả lời câu hỏi : "+rawText+ '</br>' +dt+'</p></div></div></div>';
+                    $('#chatbot').append(botHtml);
+                    document.getElementById("userInput").scrollIntoView({block:"start", behavior:"smooth"});
+                });
+            }
+
+            $("#textInput").keypress(function(e){
+                if(e.which == 13){
+                    getBotResponse();
+                }
+            });
+
+            // Bắt ngoại lệ
+            try {
+                var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
+                var recognition = new SpeechRecognition();
+            }
+            catch(e) {
+                console.error(e);
+                $('.no-browser-support').show();
+                $('.app').hide();
+            }
+
+            var noteTextarea = $('#textInput');
+            var instructions = $('#recording-instructions')
+            var voice = 0;
+
+            var noteContent = '';
+            var audio = new Audio();
+
+            recognition.continous = true;
+            recognition.onresult = function(event) {
+                var current = event.resultIndex;
+                var transcript = event.result[current][0].transcript;
+                var mobileRepeatBug = (current == 1 && transcript == event.result[0][0].transcript);
+
+                if(!mobileRepeatBug){
+                    noteContent = transcript;
+                    var userHtml = '<div class="chat"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="..."></a></div><div class="chat-body"><div class="chat-body"><div class="chat-content"><p>' +noteContent+ "</p></div></div></div></div>";
+                    $("#chatbot").append(userHtml);
+                    document.getElementById("userInput").scrollIntoView({block:"start", behavior:"smooth"});
+                    $.get("/get1", { msg:  noteContent }).done(function(data) {
+                        var dt = data.split(' ');
+                        var len = parseInt(dt[dt.lenght-1]);
+                        dt = dt.slice(0, dt.lenght-len-1).join(' ');
+                        fileaudio=data.split(' ');
+                        fileaudio=fileaudio.slice(fileaudio.length-len-1,fileaudio.length-1);
+                        var botHtml = '<div class="chat chat-left"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."></a></div><div class="chat-body"><div class="chat-content"><p>'+"Trả lời cho câu hỏi "+noteContent+'</br>'+dt+'</p></div></div></div>';
+                        $('#chatbot').append(botHtml);
+                        document.getElementById("userInput").scrollIntoView({block:"start",behavior: "smooth" });
+                        if(voice==1){
+                            playAudio();
+
+                        }
+                    });
+                }
+            }
+            
+            recognition.onstart = function() {
+                instructions.text('Bắt đầu nhận dạng giọng nói');
+                voice=1;
+            }
+
+            recognition.onspeechend = function() {
+                instructions.text('Tắt chức năng');
+                voice=0;
+            }
+
+            recognition.onerror = function(event) {
+                if(event.error == 'no-speech') {
+                    instructions.text('Không thể tạo lập, xin mời thử lại');
+                };
+            }   
+
+
+            $('#start-record-btn').on('click', function(e) {
+                recognition.start();
+            });
+
+
+            $('#pause-record-btn').on('click', function(e) {
+                recognition.stop();
+                instructions.text('Dừng bản ghi');
+            });
+
+            noteTextarea.on('input', function() {
+                noteContent = $(this).val();
+            })
+
+            function playAudio(){
+                i=0;
+                var playlist=fileaudio;
+                audio.addEventListener('ended', function () {
+                    if(i++<playlist.length+1){
+                        audio.src = playlist[i];
+                        audio.play();
+                    }
+                }, true);
+                audio.loop = false;
+                audio.src = playlist[0];
+                audio.play();
+            }
+
+            function pauseAudio() {
+                audio.pause();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+Bảng viết tắt:
+cntt
+attt
+httt
+ttdpt
+khmt
+ktpm
+ktmt
+cntt clc
+cntt&tt
+mmt&ttdl
+bn
+e
+dhct
+ntn
+dh
+ko
+cntt&tt
+tp
+clb
+drl
+---------------------------------------------
+634+20x4+15+10+1 = 740
+18*4
+13*4
+14*4
+7x4
+
+---------------------------------------------
+Phân loại
+1-51: Điểm chuẩn
+52-70: phương thức
+70-80: ngoại ngữ
+81-100:Chương trình đạo tạo/chương trình học 
+101-130: kiến thức nền tảng (máy tính, tin học)
+131-155: vấn đề con gái
+156-170: trang thiết bị
+171-175: ngành khmt
+176-180: ngành cntt
+181-185: ngành attt
+186-190: ngành ttdpt
+191-195: ngành mmt&ttdl
+196-200: ngành httt
+201-205: ngành kttmt
+206-210: ngành kttpm
+211-215: ngành cntt clc
+216-225: môi trường
+226-240: chuẩn đầu ra
+241-250: tỉ lệ ra trường
+251-257: kỹ năng/tố chất
+252-260: đại học/cao đẳng
+261-275: học phí
+276-290: học bổng
+291-310: cơ hội việc làm
+311-318: làm được gì
+319-340: lương
+341-360: cạnh tranh/ngành
+361-376: khó khăn
+377-392: thuận lợi
+393-425: kiến thức khó
+426-457: kiến thức dễ
+458-500: kiến thức, chuyên ngành
+501-515: thời gian học
+516-528: hệ lụy
+529-540: tỉ lệ thất nghiệp
+540-565: chỉ tiêu, tỉ lệ chọi
+566-580: thực tập
+581-600: tương lai

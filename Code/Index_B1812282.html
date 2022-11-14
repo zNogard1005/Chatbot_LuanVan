@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B1812282_VONGOCLONG</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Số Thứ Tự</th>
+                <th scope="col">Câu Hỏi</th>
+                <th scope="col">Nhãn</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+            </tr> -->
+            {% for row in rows %}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+                <td><a href="\detele\{{row[0]}}" class="btn btn-primary stretched-link">Delete</a></td>
+                <td><a href="\add_question\{{row[1]}}" class="btn btn-primary stretched-link">Add</a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+    </table>
+</body>
+</html>

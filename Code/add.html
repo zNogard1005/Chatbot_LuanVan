@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com    @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>B1812282_VONGOCLONG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="alert alert-success">{% if key == 1 %}
+<h4 class="text-center">Câu hỏi đã tồn tại trong tập dữ liệu</h4>
+  {% else %}
+  <p>
+    <h4 class="text-center"><h4 class="text-center"><button onclick="myFunction()" class="btn btn-primary" type="button">Thêm nhãn có sẵn</button> <h4>
+    <h4 class="text-center"><h4 class="text-center"><button onclick="myFunction1()" class="btn btn-primary" type="button">Tạo nhãn mới</button> <h4>
+
+  </p>
+</div>{% endif %}</div>
+<div class="container" id ="myDIV" style="display:none;">
+  <form action="/process_add" method="POST">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Câu hỏi</label>
+      <input type="text" class="form-control" name="cauhoi" id="cauhoi" value="{{qes}}">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Tag</label>
+      <select class="form-control" name="tag" id = "tag">{% for row in results %}
+        <option>{{row}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>
+<div><h3 class="text-center">{{res}}</h3></div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="container" id ="myDIV1" style="display:none;">
+  <form action="/process_add_tag" method="POST">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Câu hỏi</label>
+      <input type="text" class="form-control" name="cauhoi" id="cauhoi" value="{{qes}}">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Tag</label>
+      <input type="text" class="form-control" name="tag" id="tag">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Câu trả lời</label>
+      <input type="text" class="form-control" name="cautraloi" id="cautraloi">
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>
+<div><h3 class="text-center">{{res1}}</h3></div>
+<div><a href="\" class="btn btn-primary stretched-link">Go Home</a></div>
+<script>
+function myFunction1() {
+  var x1 = document.getElementById("myDIV1");
+  if (x1.style.display === "none") {
+    x1.style.display = "block";
+  } else {
+    x1.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
