@@ -1,4 +1,3 @@
----------Hướng dẫn------------
 Đối với trang web: 
 +) Các file nằm trong thư mục templates
 +) Chỉnh sửa html + css trong Chatbot.html
