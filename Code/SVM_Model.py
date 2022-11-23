@@ -142,8 +142,8 @@ def main() -> None:
         acc = accuracy_score(Y_test, Y_pred)
         avg_acc = avg_acc + acc
         print(f"Accuracy of hold-out: {acc}")
-    avg_acc = avg_acc / 10
-    print("Độ chính xác sau 10 lần lặp của nghi thức Hold-out là: ", avg_acc)
+    # avg_acc = avg_acc / 10
+    # print("Độ chính xác sau 10 lần lặp của nghi thức Hold-out là: ", avg_acc)
 if __name__ == "__main__":
     main()
 
