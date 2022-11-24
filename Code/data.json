@@ -178,7 +178,11 @@
             "diem thi nam vua roi can bao nhieu de dau he thong thong tin",
             "he thong thong tin nam vua roi lay diem co cao khong",
             "diem chuan cong nghe thong tin",
-            "điểm chuẩn công nghệ thông tin chất lượng cao bao nhiêu"
+            "điểm chuẩn công nghệ thông tin chất lượng cao bao nhiêu",
+            "Xin điểm ngành Kinh tế",
+            "diem chuan khmt",
+            "Điểm chuẩn Công Nghệ Thông Tin học tại khu Hòa An",
+            "Điểm chuẩn Khoa học Máy Tính và Công nghệ Thông Tin là bao nhiêu?"
          ],
          "responses": [
             "Ngành công nghệ thông tin điểm thi trúng tuyển năm 2021 là 25.75, điểm trúng tuyển học bạ 2021 là 28.50, Công nghệ thông tin (Hòa An) với điểm thi 23.50 và điểm học bạ là 24.25 và với Ngành Công nghệ thông tin chất lượng cao với điểm thi là 24.00 và điểm học bạ là 25.75",
@@ -1319,6 +1323,15 @@
          ],
          "responses": [
             "Tạm thời chưa có câu trả lời"
+         ]
+      },
+      {
+         "tag": "traodoiquocte",
+         "patterns": [
+            "trao đổi quốc tế"
+         ],
+         "responses": [
+            "Hàng năm, Trường Công Nghệ Thông Tin và Truyền thông luôn có những đợt trao đổi sinh viên với các trường Đại học ở nhiều Quốc gia và Vùng lãnh thổ khác như: Thái Lan, Đài Loan,..."
          ]
       }
    ]

@@ -279,8 +279,8 @@
                         var dt = data.split(' ');
                         var len = parseInt(dt[dt.length-1]);
                         dt = dt.slice(0, dt.length-len-1).join(' ');
-                        fileaudio=data.split(' ');
-                        fileaudio=fileaudio.slice(fileaudio.length-len-1,fileaudio.length-1);
+                        fileAudio =data.split(' ');
+                        fileAudio = fileAudio.slice(fileAudio.length-len-1,fileAudio.length-1);
                         var botHtml = '<div class="chat chat-left"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."></a></div><div class="chat-body"><div class="chat-content"><p>'+"Trả lời cho câu hỏi "+noteContent+'</br>'+dt+'</p></div></div></div>';
                         $('#chatbot').append(botHtml);
                         document.getElementById("userInput").scrollIntoView({block:"start",behavior: "smooth" });
