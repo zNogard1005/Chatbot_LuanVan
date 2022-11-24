@@ -178,7 +178,7 @@
                         <div class="chat chat-left">
                             <div class="chat-avatar">
                                 <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher">
-                                    <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="...">
+                                    <img src="https://www.bootdey.com/app/webroot/img/Content/avatar/avatar7.png" alt="...">
                                 </a>
                             </div>
                         <div class="chat-body">
@@ -193,13 +193,13 @@
                     <div class="form-group" id="userInput">
                         <input id="textInput" type="text" name="msg" placeholder="Massage" class="form-control"/>
                     </div>
-                    <div class="wrapper">
-                        <button id="start-record-btn" title="Start Recording" class="btn btn-primary">Bắt Đầu Ghi</button>
-                        <button id="pause-record-btn" title="Pause Recording" class="btn btn-primary">Tạm Dừng Ghi</button>
-                        <p id="recording-íntructions" class="card-text">Vui lòng ấn để <strong> Bắt đầu ghi âm</strong></p>
-                        <button onclick="playAudio()" type="button" class="btn btn-primary">Play Audio</button>
-                        <button onclick="pauseAudio()" type="button" class="btn btn-primary">Pause Audio</button>
-                    </div>
+<!--                    <div class="wrapper">-->
+<!--                        <button id="start-record-btn" title="Start Recording" class="btn btn-primary">Bắt Đầu Ghi</button>-->
+<!--                        <button id="pause-record-btn" title="Pause Recording" class="btn btn-primary">Tạm Dừng Ghi</button>-->
+<!--                        <p id="recording-íntructions" class="card-text">Vui lòng ấn để <strong> Bắt đầu ghi âm</strong></p>-->
+<!--                        <button onclick="playAudio()" type="button" class="btn btn-primary">Play Audio</button>-->
+<!--                        <button onclick="pauseAudio()" type="button" class="btn btn-primary">Pause Audio</button>-->
+<!--                    </div>-->
                 </div>
             </div>
             <div>
@@ -215,7 +215,7 @@
             var x;
             function getBotResponse(){
                 var rawText = $("#textInput").val();
-                var userHtml = '<div class="chat"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="..."></a></div><div class="chat-body"><div class="chat-body"><div class="chat-content"><p>' + rawText+ "</p></div></div></div></div>";
+                var userHtml = '<div class="chat"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane"><img src="https://www.bootdey.com/app/webroot/img/Content/avatar/avatar6.png" alt="..."></a></div><div class="chat-body"><div class="chat-body"><div class="chat-content"><p>' + rawText+ "</p></div></div></div></div>";
                 $("#textInput").val("");
                 $("#chatbot").append(userHtml)
                 document.getElementById("userInput").scrollIntoView({block:"start", behavior:"smooth"});
@@ -232,9 +232,9 @@
                     console.log(dt);
 
                     fileAudio = data.split(' ');
-                    fileAudio = fileAudio.slice(fileAudio.lenght-len-1, fileAudio.lenght-1);
+                    fileAudio = fileAudio.slice(fileAudio.length-len-1, fileAudio.length-1);
 
-                    var botHtml = '<div class="chat chat-left"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."></a></div><div class="chat-body"><div class="chat-content"><p>'+"trả lời câu hỏi : "+rawText+ '</br>' +dt+'</p></div></div></div>';
+                    var botHtml = '<div class="chat chat-left"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher"><img src="https://www.bootdey.com/app/webroot/img/Content/avatar/avatar7.png" alt="..."></a></div><div class="chat-body"><div class="chat-content"><p>'+"Xin trả lời câu hỏi: "+rawText+ '</br>' +dt+'</p></div></div></div>';
                     $('#chatbot').append(botHtml);
                     document.getElementById("userInput").scrollIntoView({block:"start", behavior:"smooth"});
                 });
@@ -277,10 +277,10 @@
                     document.getElementById("userInput").scrollIntoView({block:"start", behavior:"smooth"});
                     $.get("/get1", { msg:  noteContent }).done(function(data) {
                         var dt = data.split(' ');
-                        var len = parseInt(dt[dt.lenght-1]);
-                        dt = dt.slice(0, dt.lenght-len-1).join(' ');
-                        fileaudio=data.split(' ');
-                        fileaudio=fileaudio.slice(fileaudio.length-len-1,fileaudio.length-1);
+                        var len = parseInt(dt[dt.length-1]);
+                        dt = dt.slice(0, dt.length-len-1).join(' ');
+                        fileAudio =data.split(' ');
+                        fileAudio = fileAudio.slice(fileAudio.length-len-1,fileAudio.length-1);
                         var botHtml = '<div class="chat chat-left"><div class="chat-avatar"><a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="..."></a></div><div class="chat-body"><div class="chat-content"><p>'+"Trả lời cho câu hỏi "+noteContent+'</br>'+dt+'</p></div></div></div>';
                         $('#chatbot').append(botHtml);
                         document.getElementById("userInput").scrollIntoView({block:"start",behavior: "smooth" });

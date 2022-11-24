@@ -125,9 +125,9 @@ def predict_class(sentence, Model):
 
 def getResponse(ints, intent_json, stt):
     if len(ints) == 0:
-        return "Xin lỗi, Hiện tại câu hỏi này bot chưa thể giải đáp, bot sẽ ghi nhận câu hỏi và cải thiện chất lượng", "no_answer"
+        return "Xin lỗi, hiện tại câu hỏi này bot chưa thể giải đáp, bot sẽ ghi nhận câu hỏi và cải thiện chất lượng", "no_answer"
     print(ints)
-    print(intent_json)
+    #print(intent_json)
     print(stt)
     tag = ints[0]["intents"]
     list_of_intents = intent_json["intents"]
